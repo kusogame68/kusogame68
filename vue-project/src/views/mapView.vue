@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1>my seafood:Nick</h1>
+    <a href='https://www.google.com.tw/maps/preview'>google map</a>
   </div>
 </template>
 
