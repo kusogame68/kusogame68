@@ -3,6 +3,10 @@ defineProps({
   msg: {
     type: String,
     required: true
+  },
+  nick: {
+    type: String,
+    required: true
   }
 })
 </script>
@@ -10,6 +14,7 @@ defineProps({
 <template>
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
+    <h1>{{ nick }}</h1>
     <h3>
       成功創建project with
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
@@ -25,6 +30,7 @@ h1 {
   position: relative;
   top: -10px;
 }
+
 
 h3 {
   font-size: 1.2rem;
